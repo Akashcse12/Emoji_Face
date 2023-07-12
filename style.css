@@ -1,0 +1,50 @@
+body{
+    background-color: sk;
+}
+#face{
+    height: 270px;
+    width: 270px;
+    background: yellow;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 15%;
+    box-shadow: 7px 3px 10px 2px  black;
+}
+#eyes{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 26%;
+}
+
+#left{
+    height: 50px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+}
+#right{
+    height: 50px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+}
+#mouth{
+    height: 20px;
+    width: 90px;
+    background-color: white;
+    margin: auto;
+    margin-top: 55px;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+    border: 3px solid black;
+}
+#tongue{
+    height: 50px;
+    width: 26px;
+    background-color: palevioletred;
+    margin: auto;
+    margin-top: 10%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+}
